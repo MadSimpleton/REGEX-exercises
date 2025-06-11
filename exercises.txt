@@ -2,3 +2,7 @@ Problem 1: Matching a decimal numbers
     solution ^-?\d+(?:\.\d+)*(?:\,\d+\.\d+)*(?:e\d+)*$
     solution ^-?\d+(?:,\d+)*(?:\.\d+)*(?:e\d+)*$
 
+Problem 2: Matching phone numbers
+    Soltion to capture the groups only:
+        ^1?\s?\(?(\d{3})\)?
+    
