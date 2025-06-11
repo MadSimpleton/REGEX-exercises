@@ -1,3 +1,4 @@
 Problem 1: Matching a decimal numbers 
-    ^-?\d+(?:\.\d+)*(?:\,\d+\.\d+)*(?:e\d+)*$
+    solution ^-?\d+(?:\.\d+)*(?:\,\d+\.\d+)*(?:e\d+)*$
+    solution ^-?\d+(?:,\d+)*(?:\.\d+)*(?:e\d+)*$
 
