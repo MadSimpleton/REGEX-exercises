@@ -3,6 +3,7 @@ Problem 1: Matching a decimal numbers
     solution ^-?\d+(?:,\d+)*(?:\.\d+)*(?:e\d+)*$
 
 Problem 2: Matching phone numbers
-    Soltion to capture the groups only:
+    Solution to capture the groups only:
         ^1?\s?\(?(\d{3})\)?
-    
+    Solution to match the entire number:
+        ^1?\s?\(?(\d{3})\)?[-\s]?\d{3}[-\s]?\d{4}
