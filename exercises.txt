@@ -7,3 +7,8 @@ Problem 2: Matching phone numbers
         ^1?\s?\(?(\d{3})\)?
     Solution to match the entire number:
         ^1?\s?\(?(\d{3})\)?[-\s]?\d{3}[-\s]?\d{4}
+
+
+Problem 4: Matching HTML 
+    solution: <([a]|div+)
+
